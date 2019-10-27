@@ -41,6 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'hirb'
   gem 'hirb-unicode'
+  gem 'factory_bot_rails', '~> 4.11'
 end
 
 group :development do
