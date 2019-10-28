@@ -20,5 +20,16 @@ describe 'タスク管理機能', type: :system do
         expect(page).to have_content '最初のタスク'
       end
     end
+
+    context 'ユーザーBがログインしているとき' do
+      before do
+        # ユーザーBを作成しておく
+        # ユーザーBでログインする
+      end
+
+      it 'ユーザーAが作成したタスクが表示されない' do
+        # ユーザーAが作成したタスクの名称が画面上に表示されていないことを確認
+      end
+    end
   end
 end
