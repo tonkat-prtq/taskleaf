@@ -9,7 +9,7 @@ describe 'タスク管理機能', type: :system do
 
     context 'ユーザーAがログインしているとき' do
       before do
-        # ユーザーAでログインする
+        visit login_path # ユーザーAでログインする
       end
 
       it 'ユーザーAが作成したタスクが表示される' do
